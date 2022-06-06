@@ -16,10 +16,45 @@ If you have no errors, everything went well!
          * Laravel Framework Service Providers...
          */
         Illuminate\Auth\AuthServiceProvider::class,
+        
         //others services providers
-        Laracompress\Providers\LaracompressProvider::class
+        
+        Laracompress\Providers\LaracompressProvider::class,
 
     ],
 
  ```
+ That's really all it takes to get started using **laracompress**
  
+ # Usage
+ We have a facade to manage the compression and decompression of a path in your project.
+ ### Compression
+ ```
+ use Laracompress\Laracompress;
+ /**
+ * This function takes two arguments as parameters, the first is the path (folder or file to compress), 
+ * The second is the destination filename. Eg: (test.zip)
+ */
+ Laracompress::zip($path, $zipfile);
+ 
+ ```
+ ### Decompression
+  ```
+ use Laracompress\Laracompress;
+ /**
+ * This function takes two arguments as parameters, the first is the file to decompress,
+ * The second argument is the name of the folder where the file will be unzipped. Eg: (/test)
+ */
+ Laracompress::unzip($zipfile, $dir_to_extract);
+ 
+ ```
+ 
+ ## Helpers
+Instead of using the facade, we have zipfile() and unzipfile() functions that do the same things as our facade.
+ ### Example
+ ```
+ zipfile($path, $zipfile); //zip file
+ unzipfile($zipfile,$dir)
+ 
+ ```
+ Thank you for using laracompress.
