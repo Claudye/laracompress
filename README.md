@@ -1,5 +1,5 @@
-# laracompress
- Packages for laravel to compress and decompress files with
+# Laracompress
+  **Laracompress** is a laravel package for compressing and decompressing files withing your project.
  
 # When to use?
 
