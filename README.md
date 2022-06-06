@@ -15,6 +15,7 @@ If you have no errors, everything went well!
  Make sure that the service provider ``` Laracompress\Providers\LaracompressProvider ``` is added to the service providers of laravel
  In the file, ``` ./config/app.php ```, add the following class to the list of service providers
  ```
+ <?php
  'providers' => [
 
         /*
