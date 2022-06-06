@@ -1,5 +1,10 @@
 # laracompress
- Packages to compress and decompress files with laravel
+ Packages for laravel to compress and decompress files with
+ 
+# When to use?
+
+You will use laracompress, when you are designing an application that handles compressed (zipped) files and you want a quick and easy solution.
+
 # Installation
   - Create your laravel project
  Install this package by typing in the root folder of your project
