@@ -1,6 +1,6 @@
 {
     "name": "claudye/laracompress",
-    "description": "Packages to compress and decompress files with laravel",
+    "description": "Laracompress is a laravel package for compressing and decompressing files withing your project.",
     "type": "package",
     "keywords":["laravel","zip","unzip"],
     "license": "MIT",
