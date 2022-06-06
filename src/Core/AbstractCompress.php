@@ -4,8 +4,17 @@ namespace Laracompress\Core;
 use ZipArchive;
 use RecursiveIteratorIterator;
 use RecursiveDirectoryIterator;
-
+/**
+ * @author Claude Fassinou <dev.claudy@gmail>
+ * @license MIT
+ * @copyright 2022 Laracompress
+ *
+ */
 abstract class AbstractCompress{
+    /**
+     * Directory separator
+     * @var string
+     */
     public const SEPERATOR = "/";
     /**
      * Undocumented variable
