@@ -4,6 +4,7 @@
     "type": "package",
     "keywords":["laravel","zip","unzip"],
     "license": "MIT",
+
     "autoload": {
         "psr-4": {
             "Laracompress\\": "src/"
