@@ -9,6 +9,7 @@ You will use laracompress, when you are designing an application that handles co
  Install this package by typing in the root folder of your project
  
   ``` composer require claudye/laracompress ```
+  
 If you have no errors, everything went well!
  - Load our service provider
  Make sure that the service provider ``` Laracompress\Providers\LaracompressProvider ``` is added to the service providers of laravel
