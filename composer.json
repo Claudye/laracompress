@@ -1,0 +1,28 @@
+{
+    "name": "claudye/laracompress",
+    "description": "Packages to compress and decompress files with laravel",
+    "type": "package",
+    "keywords":["laravel","zip","unzip"],
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Laracompress\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Claude Fassinou",
+            "email": "dev.claudy@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4"
+    },
+    "extra":{
+        "laravel": {
+            "providers":[
+                "Laracompress\\Providers\\LaracompressProvider"
+            ]
+        }
+    }
+}
